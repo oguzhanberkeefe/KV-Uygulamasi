@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KarekodView"
+    android:background="@color/black">
+    <include layout="@layout/toolbarmain"
+        android:id="@+id/toolbarmain"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sipariş Karekod:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lütfen Karekodunuzu Kaybetmemniz için kaydedin."
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/karekod"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="id"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isim"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/boyutu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boyut"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"/>
+
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/sut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sut"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/adet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adet"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"/>
+
+
+
+</RelativeLayout>

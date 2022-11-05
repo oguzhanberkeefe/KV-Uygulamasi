@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_colombia_supremo_detay.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_dogrulamakodu.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_earl_grey_cay.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_filtre_kahve.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_main.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_onboard1.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_qrscanner2.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_secim.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_standart_detaylar1.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_standart_kuygulamasi.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_standart_uygulama_secim.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_temel_kuygulamasi.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/activity_urunler.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/fragment_home.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/User/Desktop/KVLATEST/app/src/main/res/layout/fragment_on_boarding1.xml" value="0.31354166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

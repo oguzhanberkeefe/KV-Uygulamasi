@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kv" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo192"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KV" >
+        <activity android:name=".KarekodView" />
+        <activity android:name=".SplashScreenOzelUygulamaSecim" />
+        <activity android:name=".SplashScreenStandartUygulamaSecim" />
+        <activity android:name=".SplashScreenTemelUygulamaSecim" />
+        <activity android:name=".SplashScreenKayitTelefonToKayit" />
+        <activity android:name=".SplashScreenSecimToKayit" />
+        <activity android:name=".SplashScreenSecimToLogin" />
+        <activity android:name=".SplashScreenLoginToKampanyalar" />
+        <activity android:name=".SplashScreenOnboardToLogin" />
+        <activity android:name=".SplashScreenOnboard3ToLogin" />
+        <activity android:name=".dogrulamakodu" />
+        <activity
+            android:name=".SecimActivity"
+            android:parentActivityName=".SecimActivity" />
+        <activity android:name=".SplashScreenOzelVUygulamasi" />
+        <activity android:name=".SplashScreenOzelKUygulamasi" />
+        <activity android:name=".SplashScreenStandartVUygulamasi" />
+        <activity android:name=".SplashScreenStandartKUygulamasi" />
+        <activity android:name=".SplashScreenTemelZUygulamasi" />
+        <activity android:name=".SplashScreenTelefonToSub" />
+        <activity android:name=".SplashScreenZatenHesabimVar" />
+        <activity android:name=".SplashScreenTelefonlaOturum" />
+        <activity android:name=".SplashScreenRegister" />
+        <activity android:name=".SplashScreenTemelKUygulamasi" />
+        <activity android:name=".SplashScreenLoginFailed" />
+        <activity android:name=".SplashScreenLogin" />
+        <activity android:name=".qrscanner2" />
+        <activity android:name=".OzelDetaylar1" />
+        <activity android:name=".TemelDetaylar1" />
+        <activity android:name=".StandartDetaylar1" />
+        <activity android:name=".OzelVUygulamasi" />
+        <activity android:name=".StandartVUygulamasi" />
+        <activity android:name=".TemelVUygulamasi" />
+        <activity android:name=".OzelKUygulamasi" />
+        <activity android:name=".StandartKUygulamasi" />
+        <activity android:name=".OzelUygulamaSecimActivity" />
+        <activity android:name=".StandartUygulamaSecimActivity" />
+        <activity android:name=".TemelUygulamaSecimActivity" />
+        <activity android:name=".TelefonlaOturumActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".KayitTelefon" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".MozaikDilimKekDetay" />
+        <activity android:name=".MozaikPastaDetay" />
+        <activity android:name=".SekerTaneliDonutDetay" />
+        <activity android:name=".VelvetCupcakeDetay" />
+        <activity android:name=".YabanMersinliMuffinDetay" />
+        <activity android:name=".LimonluCheesecakeDetay" />
+        <activity android:name=".HindistanCevizliEklerDetay" />
+        <activity android:name=".FrambuazlıCheeseCakeDetay" />
+        <activity android:name=".FındıklıCookieDetay" />
+        <activity android:name=".CilekliDonutDetay" />
+        <activity android:name=".KarekodViewSnickers" />
+        <activity android:name=".KarekodViewTurkKahvesi" />
+        <activity android:name=".CikolataliMuffinDetay" />
+        <activity android:name=".CikolataliEklerDetay" />
+        <activity android:name=".CikolataliCookieDetay" />
+        <activity android:name=".CikolataliDonutDetay" />
+        <activity android:name=".KarisikSandvicDetay" />
+        <activity android:name=".PeynirliSandvicDetay" />
+        <activity android:name=".TereyagliKruvasanDetay" />
+        <activity android:name=".CokTahilliKruvasanDetay" />
+        <activity android:name=".FindikKremaliKruvasanDetay" />
+        <activity android:name=".HavucDilimKekDetay" />
+        <activity android:name=".FiltreKahveDetay" />
+        <activity android:name=".LatteDetay" />
+        <activity android:name=".ColombiaSupremoDetay" />
+        <activity android:name=".SnickersCaramelFrappeDetay" />
+        <activity android:name=".EspressoDetay" />
+        <activity android:name=".EspressoMacchiatoDetay" />
+        <activity android:name=".CortadoDetay" />
+        <activity android:name=".FlatWhiteDetay" />
+        <activity android:name=".MochaDetay" />
+        <activity android:name=".SaltedCaramelLatteDetay" />
+        <activity android:name=".ChocolateCookieLatteDetay" />
+        <activity android:name=".SicakCikolataDetay" />
+        <activity android:name=".EarlGreyCayDetay" />
+        <activity android:name=".WhiteMochaDetay" />
+        <activity android:name=".KarekodViewYemek" />
+        <activity android:name=".TurkKahvesiDetay" />
+        <activity android:name=".MielDetay" />
+        <activity android:name=".IcedCaramelLatteDetay" />
+        <activity android:name=".KarekodViewFiltreKahve" />
+        <activity android:name=".IcedChaiTeaLatteDetay" />
+        <activity android:name=".IcedChocolatteCookieLatteDetay" />
+        <activity android:name=".MochaFrappeDetay" />
+        <activity android:name=".EspressoFrappeDetay" />
+        <activity android:name=".IcedLatteDetay" />
+        <activity android:name=".IcedAmericanoDetay" />
+        <activity android:name=".KarekodViewEspresso" />
+        <activity android:name=".OreoMochaFrappeDetay" />
+        <activity android:name=".SplashScreenSubActivity" />
+        <activity android:name=".ColdBrewDetay" />
+        <activity android:name=".CaramelFrappeDetay" />
+        <activity android:name=".CaramelMacchiatoDetay" />
+        <activity android:name=".KarekodViewEspressoMacchiato" />
+        <activity android:name=".AmericanoDetay" />
+        <activity android:name=".BalKabakliLatteDetay" />
+        <activity android:name=".BalkanCoregiDetay" />
+        <activity android:name=".CappucinoDetay" />
+        <activity android:name=".ChaiTeaLatteDetay" />
+        <activity android:name=".TemelKUygulamasi2" />
+        <activity android:name=".TemelUygulamaSecimActivity2" />
+        <activity android:name=".SubsActivity" />
+        <activity android:name=".KayitActivity" />
+        <activity android:name=".TemelKUygulamasi"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

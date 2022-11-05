@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.kv.LoginActivity">
+    <include layout="@layout/toolbarmain"  android:id="@+id/toolbarmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/facebook"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/imgface"
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="120dp"/>
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/google"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/imggoogle"
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="230dp"
+        />
+
+
+    <CheckBox
+        android:id="@+id/sifregoster"
+        android:layout_width="600dp"
+        android:layout_height="30dp"
+        android:text="Şifreyi Göster/Gizle"
+        android:textColor="@color/white"
+        android:layout_below="@id/edttxtsifre"
+        android:layout_marginLeft="185dp"
+        android:textSize="17dp"
+        android:buttonTint="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/toolbarmain"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Email adresini gir"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"/>
+
+    <TextView
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Şifreniz"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/edttxtsifre"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:layout_below="@id/sifre"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:text="Giriş Yap"
+        android:textAllCaps="false"
+        android:layout_below="@id/edttxtsifre"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="80dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

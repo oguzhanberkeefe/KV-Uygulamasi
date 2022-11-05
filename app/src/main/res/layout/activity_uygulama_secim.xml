@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemelUygulamaSecimActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/onlinekahveveya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Online kahve veya market siparişleriniz
+              için aşağıdan seçim yapabilirsiniz"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="19sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ka"
+        android:layout_width="190dp"
+        android:layout_height="560dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_below="@id/onlinekahveveya"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/onlinekahvesiparisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Kahve \n      Siparişi"
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35sp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/herzamankinden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hezamankindensiparisver"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="475sp"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:id="@+id/kaiamge"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:src="@drawable/k"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:id="@+id/kahvesiparisiver"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:text="Kahve Siparişi Ver"
+            android:layout_marginTop="515dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button2"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ve"
+        android:layout_width="190dp"
+        android:layout_height="560dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_below="@id/onlinekahveveya"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="210dp">
+
+        <TextView
+            android:id="@+id/onlinemarketsiparisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Market \n      Siparişi"
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="35sp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/veimage"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:src="@drawable/v"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp" />
+
+        <Button
+            android:id="@+id/marketsiparisiver"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:text="Market Siparişi Ver"
+            android:layout_marginTop="515dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button2"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

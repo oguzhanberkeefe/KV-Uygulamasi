@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitTelefon"
+    android:background="@color/black">
+    <include layout="@layout/toolbarmain"  android:id="@+id/toolbarmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğrula"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:id="@+id/phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NONE"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/dogrulamakodunuasagidakialana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doğrulama kodunu aşağıdaki alana girebilirsin"
+        android:textColor="#5E5C5C"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/phonenum"
+        android:layout_marginTop="30dp"/>
+
+    <com.mukesh.OtpView
+        android:id="@+id/edttxtdogrulama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dogrulamakodunuasagidakialana"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        app:OtpItemCount="6"
+        app:OtpViewType="rectangle"
+        />
+
+    <Button
+        android:id="@+id/devamet1"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:text="Devam Et"
+        android:textAllCaps="false"
+        android:layout_below="@id/edttxtdogrulama"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="60dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="KA-VE V 1.0 TEST">
+            <menu>
+                <item
+                    android:id="@+id/nav_hesabım"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Hesabım" />
+                <item
+                    android:id="@+id/nav_kavenoktalari"
+                    android:icon="@drawable/ic_baseline_location_on_24"
+                    android:title="KA-VE Noktaları" />
+                <item
+                    android:id="@+id/nav_yardim"
+                    android:icon="@drawable/ic_baseline_help_24"
+                    android:title="Yardım" />
+
+                <item
+                    android:id="@+id/nav_yasalmevzuat"
+                    android:icon="@drawable/ic_baseline_help_outline_24"
+                    android:title="Yasal Mevzuat" />
+
+                <item
+                    android:id="@+id/nav_ayarlar"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Ayarlar" />
+
+                <item
+                    android:id="@+id/nav_cikisyap"
+                    android:icon="@drawable/ic_baseline_power_settings_new_24"
+                    android:title="Çıkış Yap" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Bizi Takip Ediyor Musunuz ?">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:title="İnstagram" />
+
+            <item
+                android:id="@+id/nav_youtube"
+                android:title="Youtube" />
+
+            <item
+                android:id="@+id/nav_twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+</menu>

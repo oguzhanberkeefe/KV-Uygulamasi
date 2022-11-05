@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">KV</string>
+    <string name="todo">TODO</string>
+    <string name="abonelik_3">Abonelik 3</string>
+    <string name="abonelik_2">Abonelik 2</string>
+    <string name="abonelik_1">Abonelik 1</string>
+    <string name="aboneliklerimiz">Aboneliklerimiz</string>
+    <string name="sat_n_al_40">Satın Al 40₺</string>
+    <string name="sat_n_al_30">Satın Al 30₺</string>
+    <string name="sat_n_al_20">Satın Al 20₺</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multiplelines">Line1 \n Line2</string>
+    <string name="sub1text">Temel Uyelik TL</string>
+    <string name="sub2text">Standart Uyelik TL</string>
+    <string name="kampanyalar"><u>Kampanyalar</u></string>
+    <string name="yenidengonder"><u>Yeniden Gönder</u></string>
+    <string name="uyeolmadan"><u>Üye Olmadan Devam Et</u></string>
+    <string name="hezamankindensiparisver"><u>Her Zamankinden Sipariş Ver</u></string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- Boyut Seçimi Filtre Kahve -->
+    <string-array name="BoyutSecimiFiltreKahve">
+        <item>Standart</item>
+        <item>Büyük</item>
+    </string-array>
+
+
+    <!-- boyut Seçimi Espresso -->
+    <string-array name="BoyutSecimiEspresso">
+        <item>Single</item>
+        <item>Double</item>
+    </string-array>
+
+    <!-- sut secimi -->
+    <string-array name="SutSecimi">
+        <item>Standart</item>
+        <item>Laktozsuz</item>
+        <item>Az Yağlı</item>
+    </string-array>
+
+    <!-- seker secimi -->
+    <string-array name="SekerSecimi">
+        <item>Şekerli</item>
+        <item>Orta Şekerli</item>
+        <item>Az Şekerli</item>
+        <item>Şekersiz</item>
+
+    </string-array>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_navigation_drawer23">NavigationDrawerActivity23</string>
+
+</resources>

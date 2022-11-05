@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SubsActivity">
+    <include layout="@layout/toolbarmain"  android:id="@+id/toolbarmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/aylikabonelikmodelleritextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="    Aylık Üyelik \n      Modelleri"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:layout_marginTop="70dp" />
+
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/abonelikbar"
+        android:layout_width="375dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/aylikabonelikmodelleritextview"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        app:haloColor="@color/white"
+        app:thumbColor="@color/white"
+        app:thumbStrokeColor="@color/white"
+        app:tickColor="@color/white"
+        app:tickColorActive="@color/white"
+        app:tickColorInactive="@color/white"
+        app:trackColor="@color/white"
+        app:trackColorActive="@color/white"
+        app:trackColorInactive="@color/white"
+        app:labelBehavior="gone"
+        android:clickable="true"
+        android:value="0"
+        android:stepSize="50"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:tickVisible="false"/>
+
+    <TextView
+        android:id="@+id/temeluyelik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temel \nÜyelik"
+        android:textColor="@color/white"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/temeluyelikarrow"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/temeluyelikarrow2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_25"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/standartuyelik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Standart \n    Üyelik"
+        android:textColor="#5A5A5A"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/standartuyelikarrow"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+        android:layout_below="@id/abonelikbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/standartuyelikarrow2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/abonelikbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_25" />
+
+    <TextView
+        android:id="@+id/ozeluyelik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Özel \nÜyelik"
+        android:textColor="#5A5A5A"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="350dp"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ozeluyelikarrow"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="350dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ozeluyelikarrow2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/abonelikbar"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_baseline_arrow_drop_down_25" />
+
+    <Button
+        android:id="@+id/uyelikseciminionayla"
+        android:clickable="true"
+        android:layout_width="180dp"
+        android:layout_height="@dimen/dp_40"
+        android:text="Üyelik Seçimini Onayla"
+        android:background="@drawable/rounded_button3"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="215dp"
+        android:textAllCaps="false"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/secilenuyeliktextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seçilen Üyelik: "
+        android:textColor="@color/white"
+        android:layout_below="@id/uyelikseciminionayla"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="220dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/secilenuyeliknedirtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NONE"
+        android:textColor="@color/gray"
+        android:layout_below="@id/uyelikseciminionayla"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="320dp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>

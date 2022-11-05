@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".dogrulamakodu">
+    <include layout="@layout/toolbarmain"  android:id="@+id/toolbarmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NONE"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbarmain"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:id="@+id/dogrulamakodunuasagidakialana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doğrulama kodunu aşağıdaki alana girebilirsin"
+        android:textColor="#5E5C5C"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/phonenum"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edttxtdogrulama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dogrulamakodunuasagidakialana"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/kodgelmedimi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefonunuza kod gelmedi mi ?"
+        android:textColor="#5E5C5C"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edttxtdogrulama"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/yenidengonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yenidengonder"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kodgelmedimi"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_loop_24"
+        android:layout_below="@id/kodgelmedimi"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"/>
+
+    <Button
+        android:id="@+id/devamet1"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:background="@drawable/edit_text_bg"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:text="Devam Et"
+        android:textAllCaps="false"
+        android:layout_below="@id/yenidengonder"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="25dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
